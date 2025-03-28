@@ -1,16 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    background-image: url(/1044851.jpg);
-    background-attachment: fixed;
-   
 }
 nav.topo ul li{
     display: inline-block;    
 }
 
-body{
-    z-index: 1;
+body {
+    background-image: url(/1044851.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 @font-face{
     font-family: "Pirata";
@@ -47,18 +46,17 @@ font-family: "Western";
 
 
 }
-nav.topo ul{
-    background-color: rgb(94, 94, 94);
+nav.topo ul {
+    background-color: rgb(94, 94, 94); 
     text-align: center;
     padding: 10px;
     overflow: hidden;
     position: fixed;
     width: 100%;
-    margin: 0;
     top: 0;
     z-index: 100;
-    
 }
+
 nav.topo ul li a:hover{
     background-color: fff;
     border-radius: 2rem;
