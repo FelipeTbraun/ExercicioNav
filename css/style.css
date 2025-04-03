@@ -58,7 +58,7 @@ nav.topo ul {
 }
 
 nav.topo ul li a:hover{
-    background-color: fff;
+    background-color: white ;
     border-radius: 2rem;
     z-index: 100;
 }
@@ -87,6 +87,11 @@ div{
     background-color: rgb(184, 184, 184,);
     padding: 1rem;
     font-family: "Pirata"
+
+}
+div.tabela{
+    width: 50%;
+    background-color: white;
 
 }
 
@@ -124,4 +129,12 @@ nav.lateral ul li{
     color: black;
     z-index: 100;
     background-color: steelblue;
+}
+span{
+    margin-left: 10px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
 }
